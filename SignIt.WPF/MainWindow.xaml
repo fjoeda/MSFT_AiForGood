@@ -4,9 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SignIt.WPF"
+        xmlns:WPFMediaKit="clr-namespace:WPFMediaKit.DirectShow.Controls;assembly=WPFMediaKit"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <WPFMediaKit:VideoCaptureElement x:Name="videoCapElement"
+                             LoadedBehavior="Play"
+                             DesiredPixelWidth="320"
+                             DesiredPixelHeight="240"
+                             VideoCaptureSource=""
+                             FPS="30" Margin="88,10,104.6,121"/>
     </Grid>
 </Window>

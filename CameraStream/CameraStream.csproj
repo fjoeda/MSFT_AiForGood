@@ -58,8 +58,8 @@
     <Reference Include="Intel.RealSense.cs">
       <HintPath>C:\Program Files (x86)\Intel\RSSDK\bin\x64\Intel.RealSense.cs.dll</HintPath>
     </Reference>
-    <Reference Include="libsampledx">
-      <HintPath>C:\Program Files (x86)\Intel\RSSDK\bin\x64\libsampledx.dll</HintPath>
+    <Reference Include="Sample.DX">
+      <HintPath>C:\Program Files (x86)\Intel\RSSDK\bin\x64\Sample.DX.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
