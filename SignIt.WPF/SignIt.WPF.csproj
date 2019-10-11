@@ -59,6 +59,15 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Gestures">
+      <HintPath>C:\Users\Asus\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\Microsoft.Gestures.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Gestures.Endpoint">
+      <HintPath>C:\Users\Asus\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\SDK\Microsoft.Gestures.Endpoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Gestures.Protocol">
+      <HintPath>C:\Users\Asus\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\Microsoft.Gestures.Protocol.dll</HintPath>
+    </Reference>
     <Reference Include="DirectShowLib-2005, Version=2.1.0.26626, Culture=neutral, PublicKeyToken=67e7b740cdfc2d3f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\DirectShowLib-2005.dll</HintPath>
@@ -97,6 +106,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GesturesTest.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
