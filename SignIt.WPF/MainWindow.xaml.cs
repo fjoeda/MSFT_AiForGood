@@ -13,6 +13,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using System.IO.IsolatedStorage;
+
+using Microsoft.CognitiveServices.Speech;
+using Microsoft.CognitiveServices.Speech.Audio;
+using System.Globalization;
+
 namespace SignIt.WPF
 {
     /// <summary>
@@ -25,5 +31,10 @@ namespace SignIt.WPF
             InitializeComponent();
             videoCapElement.VideoCaptureSource = "Intel(R) RealSense(TM) Camera SR300 Virtual Driver";
         }
+
+
     }
+
+
 }
+
