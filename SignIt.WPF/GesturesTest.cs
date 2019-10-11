@@ -43,7 +43,7 @@ namespace SignIt.WPF
 
             var baik = new HandPose(
                 "baik",
-                new PalmPose(Hand.RightHand, PoseDirection.Up | PoseDirection.Forward),
+                new PalmPose(Hand.RightHand, PoseDirection.Left | PoseDirection.Forward),
                 new FingerPose(new[] { Finger.Ring, Finger.Pinky, Finger.Middle }, FingerFlexion.OpenStretched),
                 new FingerPose(new[] { Finger.Index, Finger.Thumb, }, FingerFlexion.Folded));
             baik.Triggered += (s, arg) => GestureChanged?.Invoke(arg.GestureSegment.Name);
@@ -83,7 +83,7 @@ namespace SignIt.WPF
 
         private async Task RegisterThankYouGesture()
         {
-            var forw = new PalmMotion("forward", MotionPlane.Depth);
+            //var forw = new PalmMotion("forward", MotionPlane.Depth);
             var thankyou1 = new HandPose(
                 "thankyou1",
                 new PalmPose(Hand.RightHand, PoseDirection.Up | PoseDirection.Backward),
