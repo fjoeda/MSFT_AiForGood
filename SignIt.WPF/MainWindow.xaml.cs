@@ -24,6 +24,7 @@ namespace SignIt.WPF
         {
             InitializeComponent();
             videoCapElement.VideoCaptureSource = "Intel(R) RealSense(TM) Camera SR300 Virtual Driver";
+            
         }
     }
 }
