@@ -59,6 +59,15 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Gestures">
+      <HintPath>C:\Users\Asus\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\Microsoft.Gestures.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Gestures.Endpoint">
+      <HintPath>C:\Users\Asus\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\SDK\Microsoft.Gestures.Endpoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Gestures.Protocol">
+      <HintPath>C:\Users\Asus\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\Microsoft.Gestures.Protocol.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -90,6 +99,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GesturesTest.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
